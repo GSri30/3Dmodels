@@ -68,7 +68,7 @@ async function init(){
 		else if(event.key == 'ArrowDown') SHAPE.transform.moveY(-0.1);
 		else if(event.key == 'm') SHAPE.transform.moveZ(0.1);
 		else if(event.key == 'n') SHAPE.transform.moveZ(-0.1);
-		else if(event.key == 'z') SHAPE.transform.rotateX(0.1);
+		else if(event.key == 'd') SHAPE.transform.rotateX(0.1);
 		else if(event.key == "c") SHAPE.transform.rotateX(-0.1);
 		else if(event.key == 't') SHAPE.transform.rotateY(0.1);
 		else if(event.key == "u") SHAPE.transform.rotateY(-0.1);
